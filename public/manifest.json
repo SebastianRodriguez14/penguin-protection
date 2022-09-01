@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Penguin Protection - A different and better site blocker",
+  "description": "The google extension that promises to improve your productivity by blocking the pages that most distract you",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["https://*/", "http://*/"]
+}
